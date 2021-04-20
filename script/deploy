@@ -2,6 +2,6 @@
 ssh dhana@34.203.240.154 <<EOF
  cd ~/git/node-hello
  git pull
- pm2 start index.js
+ pm2 restart index.js
  exit
 EOF
