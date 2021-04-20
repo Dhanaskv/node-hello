@@ -2,7 +2,7 @@
 ssh dhana@34.203.240.154 <<EOF
  cd ~/git/node-hello
  git pull
- npm install — production
+ npm install 
  pm2 restart all
  exit
 EOF
