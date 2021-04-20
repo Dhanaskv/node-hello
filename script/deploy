@@ -1,0 +1,8 @@
+#!/bin/sh
+ssh dhana@34.203.240.154 <<EOF
+ cd ~/node-app
+ git pull
+ npm install — production
+ pm2 restart all
+ exit
+EOF
